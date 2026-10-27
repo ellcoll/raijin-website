@@ -1,0 +1,7 @@
+# robots.txt for Raijin BJJ Hanoi
+# TODO: Update if specific crawl rules or final domain are required
+
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml
