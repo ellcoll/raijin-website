@@ -14,29 +14,8 @@
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <!-- Header -->
-    <header>
-        <div class="container header-inner">
-            <a href="index.html" class="logo">
-                <div class="logo-placeholder" aria-hidden="true">R</div>
-                <span>Raijin BJJ Hanoi</span>
-            </a>
-            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="beginners.html" class="nav-link">New to BJJ?</a></li>
-                    <li><a href="timetable.html" class="nav-link">Timetable</a></li>
-                    <li><a href="visiting-hanoi.html" class="nav-link">Visiting Hanoi</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <!-- Shared Header Container -->
+    <div id="site-header"></div>
 
     <!-- Main Content -->
     <main id="main-content">
@@ -93,13 +72,14 @@
                     </div>
                 </div>
 
-                <!-- Map Placeholder -->
+                <!-- Map Location -->
                 <div style="margin-top: 48px;">
                     <h2 class="section-title" style="font-size: 1.5rem; margin-bottom: 16px;">Map Location</h2>
-                    <div class="img-placeholder" style="min-height: 350px;">
-                        <span>[GOOGLE MAPS EMBED PLACEHOLDER]</span>
-                        <p>Replace this element with an official Google Maps iframe once coordinates and verified
-                            address are supplied.</p>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.880981663504!2d105.823606!3d21.077415300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab44d7d0dc79%3A0xdbc3c2c298a8bb35!2sRaijin%20BJJ%20Hanoi!5e0!3m2!1sen!2s!4v1793105129148!5m2!1sen!2s"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
                 </div>
 
@@ -137,6 +117,7 @@
         </div>
     </footer>
 
+    <script src="js/header.js"></script>
     <script src="js/main.js"></script>
 </body>
 
