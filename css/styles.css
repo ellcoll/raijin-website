@@ -480,5 +480,7 @@ footer {
 
     .mobile-menu-toggle {
         display: block;
+        margin-left: auto;
+        /* Pushes the hamburger button to the far right edge */
     }
 }
