@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="index.html" class="logo">
           <img src="assets/images/raijin-logo.png" alt="Raijin BJJ Hanoi Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
           <div class="logo-placeholder" aria-hidden="true" style="display:none;">R</div>
-          <img src="assets/images/raijin-header.png" alt="Raijin BJJ Hanoi" class="header-logo-text" style="height: 32px; width: auto; object-fit: contain;" />
+          <img src="assets/images/raijin-header.png" alt="Raijin BJJ Hanoi" class="header-logo-text" style="height: 40px; width: auto; object-fit: contain;" />
         </a>
         <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
           <span></span>

@@ -1,3 +1,7 @@
+<!-- TODO:
+- Get images to maintain aspect ration when changing to mobile
+- Sort out footer
+ -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +38,10 @@
                     </div>
                 </div>
                 <div>
-                    <div class="img-placeholder" style="min-height: 340px;">
+                    <img src="assets/images/raijin-hero.png" alt="Raijin BJJ Hanoi Hero" class="responsive-img"
+                        style="width: 100%; height: 350px; border-radius: 8px; object-fit: cover;"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                    <div class="img-placeholder" style="display: none; min-height: 340px;">
                         <span>[RAIJIN HERO PHOTO PLACEHOLDER]</span>
                         <p>File: assets/images/raijin-hero.jpg</p>
                     </div>
@@ -50,23 +57,55 @@
                     foundations and technical proficiency.</p>
 
                 <div class="grid-3">
+                    <!-- Gi Classes Card -->
                     <div class="card">
+                        <div style="margin-bottom: 20px;">
+                            <img src="assets/images/raijin-gi.png" alt="Raijin BJJ Gi Class session"
+                                class="responsive-img"
+                                style="width: 100%; height: 230px; border-radius: 8px; object-fit: cover;"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                            <div class="img-placeholder" style="display: none; min-height: 180px;">
+                                <span>[GI CLASS PHOTO PLACEHOLDER]</span>
+                                <p>File: assets/images/gi-class.jpg</p>
+                            </div>
+                        </div>
                         <h3>Gi Classes</h3>
                         <p>Traditional Brazilian Jiu-Jitsu training wearing the kimono. Focuses heavily on grip
                             fighting, leverage, and positional control.</p>
-                        <span class="badge badge-gi">Gi Training</span>
                     </div>
+
+                    <!-- No-Gi Classes Card -->
                     <div class="card">
+                        <div style="margin-bottom: 20px;">
+                            <img src="assets/images/raijin-no-gi.png" alt="Raijin BJJ No-Gi Class session"
+                                class="responsive-img"
+                                style="width: 100%; height: 230px; border-radius: 8px; object-fit: cover;"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                            <div class="img-placeholder" style="display: none; min-height: 180px;">
+                                <span>[NO-GI CLASS PHOTO PLACEHOLDER]</span>
+                                <p>File: assets/images/nogi-class.png</p>
+                            </div>
+                        </div>
                         <h3>No-Gi Classes</h3>
                         <p>Fast-paced grappling wearing rashguards and shorts. Emphasizes wrestling transitions, leg
                             locks, and modern submission holds.</p>
-                        <span class="badge badge-nogi">No-Gi Training</span>
                     </div>
+
+                    <!-- Open Mat Card -->
                     <div class="card">
+                        <div style="margin-bottom: 20px;">
+                            <img src="assets/images/raijin-open-mat.png" alt="Raijin BJJ open mat session"
+                                class="responsive-img"
+                                style="width: 100%; height: 230px; border-radius: 8px; object-fit: cover;"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                            <div class="img-placeholder" style="display: none; min-height: 180px;">
+                                <span>[RAIJIN OPEN MAT PHOTO PLACEHOLDER]</span>
+                                <p>File: assets/images/raijin-open-mat.png</p>
+                            </div>
+                        </div>
                         <h3>Open Mat</h3>
                         <p>Dedicated sparring time for practitioners to refine techniques, drill positions, and roll
                             freely with training partners.</p>
-                        <span class="badge badge-open">Open Mat</span>
                     </div>
                 </div>
             </div>
@@ -83,14 +122,15 @@
                             own pace.</p>
                         <p>Our community includes local residents as well as international visitors from around the
                             globe, creating a diverse and engaging training atmosphere.</p>
-                        <div style="margin-top: 24px;">
-                            <a href="timetable.html" class="btn btn-primary">View Full Timetable</a>
-                        </div>
                     </div>
                     <div>
-                        <div class="img-placeholder">
+                        <img src="assets/images/raijin-community.png"
+                            alt="Raijin BJJ Hanoi Community, Members and Coaching" class="responsive-img"
+                            style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                        <div class="img-placeholder" style="display: none;">
                             <span>[RAIJIN COMMUNITY PHOTO PLACEHOLDER]</span>
-                            <p>File: assets/images/raijin-community.jpg</p>
+                            <p>File: assets/images/raijin-community.png</p>
                         </div>
                     </div>
                 </div>
@@ -104,49 +144,17 @@
                 <p class="section-subtitle">A quick look at our training schedule. Please visit our timetable page for
                     complete details.</p>
 
-                <div class="notice-box">
-                    <strong>Notice:</strong> Timetable slots below require confirmation from Raijin BJJ before
-                    attending. See our <a href="timetable.html"
-                        style="color: #fff; text-decoration: underline;">Timetable page</a> for updates.
-                </div>
-
-                <div class="timetable-wrapper">
-                    <table class="timetable">
-                        <thead>
-                            <tr>
-                                <th>Day</th>
-                                <th>Session Type</th>
-                                <th>Time (Placeholder)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Monday</td>
-                                <td><span class="badge badge-gi">Gi</span></td>
-                                <td>[CONFIRM TIME]</td>
-                            </tr>
-                            <tr>
-                                <td>Tuesday</td>
-                                <td><span class="badge badge-gi">No-gi Beginners</span></td>
-                                <td>[CONFIRM TIME]</td>
-                            </tr>
-                            <tr>
-                                <td>Wednesday</td>
-                                <td><span class="badge badge-nogi">No-Gi</span></td>
-                                <td>[CONFIRM TIME]</td>
-                            </tr>
-                            <tr>
-                                <td>Friday</td>
-                                <td><span class="badge badge-gi">Gi</span></td>
-                                <td>[CONFIRM TIME]</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday</td>
-                                <td><span class="badge badge-open">Open Mat</span></td>
-                                <td>[CONFIRM TIME]</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="timetable-image-container" style="text-align: center; max-width: 500px; margin: 0 auto;">
+                    <img src="assets/images/raijin-timetable.png" alt="Raijin BJJ Hanoi Weekly Class Schedule"
+                        style="width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border-color); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                    <div class="img-placeholder" style="display: none; min-height: 400px;">
+                        <span>[RAIJIN TIMETABLE IMAGE PLACEHOLDER]</span>
+                        <p>File: assets/images/raijin-timetable.png</p>
+                    </div>
+                    <div style="margin-top: 24px;">
+                        <a href="timetable.html" class="btn btn-primary">View Full Timetable</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -158,16 +166,25 @@
                 <p class="section-subtitle">What visitors and members say about training in Hanoi.</p>
                 <div class="grid-2">
                     <div class="card">
-                        <h3>[VERIFIED REVIEW PLACEHOLDER 1]</h3>
-                        <p>"[Review quote will be inserted here once verified and supplied by Raijin BJJ management.]"
+                        <h3 style="color: #ffc107; letter-spacing: 2px;">★★★★★</h3>
+                        <p>"I visited Hanoi for a few days and decided to enroll in a few classes during my stay. The
+                            warm and welcoming atmosphere,
+                            coupled with the exceptional guidance of the coaches, made the experience truly remarkable.
+                            Despite the limited time I
+                            had, I learned a lot. If I ever return to Hanoi, I will definitely enroll in more classes
+                            there."
                         </p>
-                        <span style="font-size: 0.85rem; color: var(--text-muted);">— Visiting Grappler</span>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Diana — Visitor</span>
                     </div>
                     <div class="card">
-                        <h3>[VERIFIED REVIEW PLACEHOLDER 2]</h3>
-                        <p>"[Review quote will be inserted here once verified and supplied by Raijin BJJ management.]"
+                        <h3 style="color: #ffc107; letter-spacing: 2px;">★★★★★</h3>
+                        <p>"A gym that's great for English speakers, Vietnamese, and everywhere in between. Classes have
+                            a warm, welcoming
+                            environment filled with good structure. There are late morning/early afternoon offerings
+                            which are great for my
+                            schedule. Mats are clean and they have showers and bathroom on site."
                         </p>
-                        <span style="font-size: 0.85rem; color: var(--text-muted);">— Local Member</span>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Sean — Local Member</span>
                     </div>
                 </div>
             </div>
