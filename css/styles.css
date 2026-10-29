@@ -468,6 +468,10 @@ footer {
     border: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Responsive Media Queries */
 @media (max-width: 900px) {
 

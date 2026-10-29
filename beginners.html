@@ -44,9 +44,17 @@
                         </p>
                     </div>
                     <div>
-                        <div class="img-placeholder">
-                            <span>[RAIJIN TRAINING PHOTO PLACEHOLDER]</span>
-                            <p>File: assets/images/raijin-training.jpg</p>
+                        <div>
+                            <img src="assets/images/raijin-beginners.jpg"
+                                alt="Beginners training session at Raijin BJJ Hanoi" class="responsive-img"
+                                style="width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; object-fit: cover;"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+
+                            <!-- Fallback placeholder if image is missing -->
+                            <div class="img-placeholder" style="display: none; min-height: 200px;">
+                                <span>[RAIJIN BEGINNERS PHOTO PLACEHOLDER]</span>
+                                <p>File: assets/images/raijin-beginners.jpg</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -59,17 +67,12 @@
                 <h2 class="section-title">Your First Session</h2>
                 <p class="section-subtitle">What happens when you walk through our doors.</p>
 
-                <div class="notice-box">
-                    <strong>Gym Policy Confirmation Required:</strong> The details below are general guidelines. Please
-                    message Raijin BJJ directly to confirm class availability, uniform requirements, and visitor
-                    policies before arriving.
-                </div>
-
                 <div class="grid-2" style="margin-top: 32px;">
                     <div class="card">
                         <h3>What to Bring & Wear</h3>
-                        <p><strong>For Gi classes:</strong> [CONFIRM IF LOANER GIS ARE AVAILABLE] A standard BJJ kimono
-                            is typically required. If you are a visitor without a Gi, please inquire in advance.</p>
+                        <p><strong>For Gi classes:</strong> A standard BJJ kimono
+                            is typically required. If you are a visitor without a gi, we usually have gis avaialable to
+                            borrow. We charge a small laundry fee of 50,000vnd.</p>
                         <p><strong>For No-Gi classes:</strong> Comfortable athletic clothing such as shorts (without
                             metal zippers or pockets) and a rashguard or fitted t-shirt.</p>
                         <p><strong>Essentials:</strong> A water bottle, flip-flops or sandals (to wear off the mats),
@@ -95,7 +98,10 @@
                 <p class="section-subtitle" style="margin: 0 auto 32px;">We encourage you to reach out via Facebook
                     Messenger to confirm class times and ensure an instructor is ready to welcome you.</p>
                 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-                    <a href="contact.html" class="btn btn-primary">Contact the Gym</a>
+                    <a href="https://m.me/61571395554069" target="_blank" rel="noopener" class="btn btn-primary">Send
+                        Message on
+                        Messenger</a>
+                    <a href="contact.html" class="btn btn-outline">Location & Contact</a>
                     <a href="timetable.html" class="btn btn-outline">View Timetable</a>
                 </div>
             </div>
@@ -104,35 +110,10 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>Raijin BJJ Hanoi</h4>
-                    <p>Brazilian Jiu-Jitsu training community located in Hanoi, Vietnam.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="beginners.html">New to BJJ?</a></li>
-                        <li><a href="timetable.html">Timetable</a></li>
-                        <li><a href="visiting-hanoi.html">Visiting Hanoi</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <p><strong>Facebook:</strong> [CONFIRM FB LINK]</p>
-                    <p><strong>Messenger:</strong> [CONFIRM MESSENGER LINK]</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Raijin BJJ Hanoi. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <div id="site-footer"></div>
 
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/main.js"></script>
 </body>
 

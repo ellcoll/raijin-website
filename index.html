@@ -39,7 +39,7 @@
                 </div>
                 <div>
                     <img src="assets/images/raijin-hero.png" alt="Raijin BJJ Hanoi Hero" class="responsive-img"
-                        style="width: 100%; height: 350px; border-radius: 8px; object-fit: cover;"
+                        style="width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; object-fit: cover;"
                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
                     <div class="img-placeholder" style="display: none; min-height: 340px;">
                         <span>[RAIJIN HERO PHOTO PLACEHOLDER]</span>
@@ -62,7 +62,7 @@
                         <div style="margin-bottom: 20px;">
                             <img src="assets/images/raijin-gi.png" alt="Raijin BJJ Gi Class session"
                                 class="responsive-img"
-                                style="width: 100%; height: 230px; border-radius: 8px; object-fit: cover;"
+                                style="width: 100%; aspect-ratio: 4/3; border-radius: 8px; object-fit: cover;"
                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
                             <div class="img-placeholder" style="display: none; min-height: 180px;">
                                 <span>[GI CLASS PHOTO PLACEHOLDER]</span>
@@ -79,7 +79,7 @@
                         <div style="margin-bottom: 20px;">
                             <img src="assets/images/raijin-no-gi.png" alt="Raijin BJJ No-Gi Class session"
                                 class="responsive-img"
-                                style="width: 100%; height: 230px; border-radius: 8px; object-fit: cover;"
+                                style="width: 100%; aspect-ratio: 4/3; border-radius: 8px; object-fit: cover;"
                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
                             <div class="img-placeholder" style="display: none; min-height: 180px;">
                                 <span>[NO-GI CLASS PHOTO PLACEHOLDER]</span>
@@ -96,7 +96,7 @@
                         <div style="margin-bottom: 20px;">
                             <img src="assets/images/raijin-open-mat.png" alt="Raijin BJJ open mat session"
                                 class="responsive-img"
-                                style="width: 100%; height: 230px; border-radius: 8px; object-fit: cover;"
+                                style="width: 100%; aspect-ratio: 4/3; border-radius: 8px; object-fit: cover;"
                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
                             <div class="img-placeholder" style="display: none; min-height: 180px;">
                                 <span>[RAIJIN OPEN MAT PHOTO PLACEHOLDER]</span>
@@ -187,6 +187,14 @@
                         <span style="font-size: 0.85rem; color: var(--text-muted);">Sean — Local Member</span>
                     </div>
                 </div>
+
+                <!-- Leave a Review CTA -->
+                <div style="text-align: center; margin-top: 32px;">
+                    <a href="https://g.page/r/CTW7qJjCwsPbEBM/review" target="_blank" rel="noopener"
+                        class="btn btn-outline">
+                        Leave Us a Google Review
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -203,37 +211,10 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>Raijin BJJ Hanoi</h4>
-                    <p>Brazilian Jiu-Jitsu training community located in Hanoi, Vietnam. Welcoming practitioners of all
-                        experience levels.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="beginners.html">New to BJJ?</a></li>
-                        <li><a href="timetable.html">Timetable</a></li>
-                        <li><a href="visiting-hanoi.html">Visiting Hanoi</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <p><strong>Facebook:</strong> [CONFIRM FB LINK]</p>
-                    <p><strong>Messenger:</strong> [CONFIRM MESSENGER LINK]</p>
-                    <p><strong>Address:</strong> [CONFIRM ADDRESS, HANOI]</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Raijin BJJ Hanoi. All rights reserved. [All details subject to confirmation]</p>
-            </div>
-        </div>
-    </footer>
+    <div id="site-footer"></div>
 
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/main.js"></script>
 </body>
 

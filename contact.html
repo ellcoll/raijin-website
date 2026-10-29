@@ -36,6 +36,7 @@
 
                 <div class="grid-2" style="margin-top: 32px;">
                     <!-- Contact Card -->
+                    <!-- Contact Card -->
                     <div class="card">
                         <h3>Get in Touch</h3>
                         <p>The primary method to contact Raijin BJJ or arrange a visit is via our Facebook page and
@@ -43,15 +44,22 @@
                         <ul
                             style="margin-bottom: 24px; display: flex; flex-direction: column; gap: 12px; color: var(--text-muted);">
                             <li><strong>Business Name:</strong> Raijin BJJ Hanoi</li>
-                            <li><strong>Address:</strong> 88A Ngõ 374 Âu Cơ, thôn Đông, Hồng Hà, Hà Nội</li>
+                            <li>
+                                <strong>Address:</strong>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Raijin+BJJ+Hanoi+88A+Ngo+374+Au+Co+Ha+Noi"
+                                    target="_blank" rel="noopener"
+                                    style="color: var(--text-primary); text-decoration: underline;">
+                                    88A Ngõ 374 Âu Cơ, thôn Đông, Hồng Hà, Hà Nội
+                                </a>
+                            </li>
                             <li><strong>Phone:</strong> <a href="tel:0393781127"
                                     style="color: var(--text-primary); text-decoration: underline;">0393 781 127</a>
                             </li>
                             <li><strong>Facebook:</strong> <a
                                     href="https://www.facebook.com/p/Raijin-BJJ-Hanoi-61571395554069/" target="_blank"
                                     rel="noopener"
-                                    style="color: var(--text-primary); text-decoration: underline;">Raijin BJJ Hanoi</a>
-                            </li>
+                                    style="color: var(--text-primary); text-decoration: underline;">Raijin
+                                    BJJ Hanoi</a></li>
                         </ul>
                         <a href="https://m.me/61571395554069" target="_blank" rel="noopener" class="btn btn-primary"
                             style="align-self: flex-start;">Send Message on Messenger</a>
@@ -60,11 +68,35 @@
                     <!-- Directions & Arrival -->
                     <div class="card">
                         <h3>Directions & Arrival</h3>
-                        <p><strong>Finding the Gym:</strong> [CONFIRM LANDMARKS OR DIRECTIONS IN HANOI].</p>
+                        <p><strong>Finding the Gym:</strong> The easiest way to find us is from Âu Cơ Road. Near Nhật
+                            Tân Elementary School (the large, colourful building), turn
+                            into Alley 374 Âu Cơ. Follow the alley for approximately 200 metres. Raijin BJJ is on your
+                            right.</p>
                         <p><strong>Transport:</strong> Ride-hailing apps like Grab are widely available across Hanoi and
                             provide direct transport to our location.</p>
                         <p><strong>Arrival Tip:</strong> We recommend arriving 15 minutes before your scheduled class
                             time to change, wrap tape if needed, and meet the instructor.</p>
+                    </div>
+                </div>
+
+
+                <div class="card" style="margin-top: 32px;">
+                    <h3>What to Look For</h3>
+                    <p>Look for our main entrance and sign when arriving at the alley address. Here is what the front of
+                        the gym looks
+                        like from the street:</p>
+
+                    <div style="margin-top: 16px;">
+                        <img src="assets/images/raijin-exterior.png" alt="Raijin BJJ Hanoi Storefront Entrance"
+                            class="responsive-img"
+                            style="width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; object-fit: cover;"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+
+                        <!-- Fallback placeholder if image is missing -->
+                        <div class="img-placeholder" style="display: none; min-height: 200px;">
+                            <span>[RAIJIN EXTERIOR PHOTO PLACEHOLDER]</span>
+                            <p>File: assets/images/raijin-exterior.png</p>
+                        </div>
                     </div>
                 </div>
 
@@ -85,35 +117,10 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>Raijin BJJ Hanoi</h4>
-                    <p>Brazilian Jiu-Jitsu training community located in Hanoi, Vietnam.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="beginners.html">New to BJJ?</a></li>
-                        <li><a href="timetable.html">Timetable</a></li>
-                        <li><a href="visiting-hanoi.html">Visiting Hanoi</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <p><strong>Facebook:</strong> [CONFIRM FB LINK]</p>
-                    <p><strong>Messenger:</strong> [CONFIRM MESSENGER LINK]</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Raijin BJJ Hanoi. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <div id="site-footer"></div>
 
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/main.js"></script>
 </body>
 
