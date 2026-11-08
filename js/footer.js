@@ -29,6 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p><strong>Facebook:</strong> <a href="https://www.facebook.com/p/Raijin-BJJ-Hanoi-61571395554069/" target="_blank" rel="noopener" style="text-decoration: underline;">Raijin BJJ Hanoi</a></p>
                     <p><strong>Messenger:</strong> <a href="https://m.me/61571395554069" target="_blank" rel="noopener" style="text-decoration: underline;">Chat on Messenger</a></p>
                     <p><strong>Address:</strong> <a href="https://www.google.com/maps/search/?api=1&query=Raijin+BJJ+Hanoi+88A+Ngo+374+Au+Co+Ha+Noi" target="_blank" rel="noopener" style="text-decoration: underline;">88A Ngõ 374 Âu Cơ</a></p>
+                    <!-- Badges -->
+                    <a href="https://bjjgym.com/gym/Raijin-BJJ-Hanoi-Hanoi-83a0225157279e1d" target="_blank" rel="noopener">
+                    <img src="https://bjjgym.com/badge/83a0225157279e1d.svg" alt="Raijin BJJ Hanoi on BJJGym" width="260"
+                    height="56" style="max-width: 100%; height: auto;">
+                    </a>
                 </div>
             </div>
             <div class="footer-bottom">
