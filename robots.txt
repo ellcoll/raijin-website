@@ -4,4 +4,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://raijinbjj.com/sitemap.xml
+Sitemap: https://www.raijinbjj.com/sitemap.xml
